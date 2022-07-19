@@ -1,0 +1,23 @@
+body{
+    background-color:black;
+  }
+  #title{  
+  color:white;
+  text-align:center;
+  }
+  #image{
+    display: block;
+    margin: auto;
+    max-width:100%;
+    height:auto;
+  }
+  #img-caption{
+    text-align:center;
+    color:white;
+  }
+  #tribute-info{
+    color:white;
+  }
+  #tribute-link{
+    color:yellow;
+  }

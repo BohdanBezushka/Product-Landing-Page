@@ -1,0 +1,86 @@
+body{
+    font-family:"Open Sans";
+    font-size:14px;
+    color:#8cc63f;
+    background-image:url("liquido.png");
+    background-position:100%;
+    padding:400px;
+    }
+
+    #cuadro{
+        border-style: solid;
+        border-width: 10px;
+        border-color:#8cc63f;
+        background-color: black;
+        text-align: center;
+        margin:20px;
+    }
+    #tittle{
+        text-align: center;
+    }
+    #description{
+        text-align: center;
+        font-size: 28px;
+    }
+    
+    #survey-form{
+        margin:20px;
+        border: #8cc63f;
+        border-style: solid;
+        border-width: 10px;
+        background-color:black;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+    #form-group{
+        display: flex;
+        flex-direction: column;
+    }
+    #name-label{
+        margin:10px;
+        font-family:"Open Sans";
+        border-radius: 8px;
+    }
+    #email-label{
+        margin:10px;
+        font-family:"Open Sans";
+        border-radius: 8px;
+    }
+    #number-label{
+        margin:10px;
+        font-family:"Open Sans";
+        border-radius: 8px;
+    }
+    #dropdown{
+        margin:10px;
+        font-family:"Open Sans";
+        border-radius: 8px;
+    }
+    #opcion-recomendacion{
+        margin:10px;
+        font-family:"Open Sans";
+        border-radius: 8px;
+    }
+    #cantidad-label{
+        margin:10px;
+        font-family:"Open Sans";
+        border-radius: 8px;
+    } 
+    #opcion-mejor{
+        margin:10px;
+        font-family:"Open Sans";
+        border-radius: 8px;
+    }
+    #comentarios{
+        margin:10px;
+        font-family:"Open Sans";
+        border-radius: 8px;
+    }
+    #submit-boton{
+        margin:10px;
+        font-family:"Open Sans";
+        border-radius: 8px;
+        text-align: center;
+    }

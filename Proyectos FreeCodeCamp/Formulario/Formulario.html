@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+        <title>Survey Form B</title>
+
+        <style>
+ 
+        </style>
+    </head>
+    <body>
+        <div id="cuadro">
+        <header id="encabezado">
+            <h1 id="tittle"><img src="C:\Users\bbezu\OneDrive\Escritorio\PROGRAMACIÓN\Proyectos FreeCodeCamp\Formulario\logo-Monster-Energy-640x400.png" alt="logo de Monster" width="" height=""></h1>
+            <p id="description">Thank you for taking the time to help us to improve our delicious beverage</p>
+        </header>
+        </div>
+
+        <form id="survey-form">
+
+        <div id="form-group">
+            <label id="name-label" for="name">Name:</label>
+            <input id="name-label" type="text" name="name" placeholder="Text your name please" required>
+        </div>
+
+        <div id="form-group">
+            <label id="email-label" for="email">Email address</label>
+            <input id="email-label" type="email" name="email" class="form-control" placeholder="Text your email address" required>
+        </div>
+
+        <div id="form-group">
+            <label id="number-label" for="date">Age</label>
+            <input id="number-label" type="number" placeholder="Insert your date birth" min="16" max="99">
+        </div>
+
+        <div id="form-group">
+            <label id="dropdown" for="desde">How long have you been using Monster products?</label>
+            <select id="dropdown" name="role" class="form-control" required>
+                <option>Days</option>
+                <option>Months</option>
+                <option>Years</option>
+                <option>Since I was born :P</option>
+            </select>
+            <input id="dropdown" type="number" placeholder="Enter the number" min="1" required>
+        </div>
+
+        <div id="form-group">
+            <p id="opcion-recomendacion">Would you recommend Monster products to others?</p>
+            <label>
+             <input id="opcion-recomendacion" name="opciones" value="definitely" type="radio">
+                Definitely
+            </label>
+
+            <label>
+                <input id="opcion-recomendacion" name="opciones"  value="Maybe" type="radio">
+                    Maybe
+            </label>
+
+            <label>
+                <input id="opcion-recomendacion" name="opciones" value="No" type="radio">
+                No
+            </label>
+        </div>
+
+        <div id="form-group">
+            <label id="cantidad-label" for="cantidad">How many cans of Monster do you drink a week?</label>
+                <select id="cantidad-label">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>+10</option>
+                </select>
+        </div>
+
+        <div id="form-group">
+            <p id="opcion-mejor">Which is your favourite Monster?</p>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="The-Original-Green-Monster-Energy" type="checkbox">
+                    The Original Green Monster Energy
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor"  value="The Original Absolutely Zero Monster Energy" type="checkbox">
+                    The Original Absolutely Zero Monster Energy
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="LH44-Monster-Energy" type="checkbox">
+                    LH44 Monster Energy
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="VR46-aka-The-Doctor-Monster-Energy" type="checkbox">
+                    VR46 aka. The Doctor Monster Energy
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="The-Non-Alcoholic-Monster-Mule" type="checkbox">
+                    The Non-Alcoholic Monster Mule
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="Zero-Sugar-Ultra-Blue-a.k.a.-The-Blue-Monster" type="checkbox">
+                    Zero-Sugar Ultra Blue a.k.a. The Blue Monster
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="Zero-Sugar-Ultra-Paradise" type="checkbox">
+                    Zero-Sugar Ultra Paradise
+                 </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="Zero-Sugar-Ultra-Black" type="checkbox">
+                    Zero-Sugar Ultra Black
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="Zero-Sugar-Ultra-Fiesta" type="checkbox">
+                    Zero-Sugar Ultra Fiesta
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="Zero-Sugar-Ultra-Red" type="checkbox">
+                    Zero-Sugar Ultra Red
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="Zero-Sugar-Ultra-Violet-a.k.a.-The-Purple-Monster" type="checkbox">
+                    Zero-Sugar Ultra Violet a.k.a. The Purple Monster
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="Zero-Sugar-Ultra-Violet-a.k.a.-The-White-Monster" type="checkbox">
+                    Zero-Sugar Ultra Blue a.k.a. The White Monster
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="Juiced Monster Mango Loco" type="checkbox">
+                    Juiced Monster Mango Loco
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="Juiced Monster Pipeline Punch" type="checkbox">
+                    Juiced Monster Pipeline Punch
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="Juiced Monster Pacific Punch" type="checkbox">
+                    Juiced Monster Pacific Punch
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="Juiced Monster Monarch" type="checkbox">
+                    Juiced Monster Monarch
+                </label>
+                <label>
+                    <input id="opcion-mejor" name="mejor" value="Juiced Monster Mixxd Punch" type="checkbox">
+                    Juiced Monster Mixxd Punch
+                </label>
+
+        <div id="form-group">
+            <p id="comentarios">Leave your opinion to improve our products</p>
+            <textarea id="comentarios" name="comentarios" placeholder="Enter your comment here"></textarea>
+        </div>
+
+        <div id="submit-boton">
+            <button id="submit-boton" name="submit" type="submit">SUBMIT</button>
+        </div>
+    </div>
+
+    </form>
+
+    </body>
+</html>
